@@ -1,0 +1,438 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Joyler — ジョイラー</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="assets/img/favicon/favicon.ico">
+    <link rel="icon" sizes="16x16 32x32 64x64" href="assets/img/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="196x196" href="assets/img/favicon/favicon-192.png">
+    <link rel="icon" type="image/png" sizes="160x160" href="assets/img/favicon/favicon-160.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon/favicon-96.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="assets/img/favicon/favicon-64.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16.png">
+    <link rel="apple-touch-icon" href="assets/img/favicon/favicon-57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicon/favicon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon/favicon-72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicon/favicon-144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon/favicon-60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon/favicon-120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon/favicon-76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon/favicon-152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/favicon-180.png">
+    <meta name="msapplication-TileColor" content="#F8B3C5">
+    <meta name="msapplication-TileImage" content="assets/img/favicon/favicon-144.png">
+    <meta name="msapplication-config" content="assets/img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#F8B3C5"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/win98.css"/>
+    <link rel="stylesheet" href="assets/css/win98custom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="assets/embed-assets/cards.css"/>
+    <link rel="stylesheet" href="assets/css/users.css"/>
+    <link rel="stylesheet" href="assets/css/gacha.css"/>
+    <!--<link href="assets/os-gui/src/layout.css" rel="stylesheet" type="text/css">
+    <link href="assets/os-gui/src/windows-98.css" rel="stylesheet" type="text/css">
+    <link href="assets/os-gui/src/windows-default.css" rel="stylesheet" type="text/css">
+
+    <script src="assets/os-gui/MenuBar.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <!-- required by $Window.js -->
+    <!--<script src="assets/os-gui/$Window.js"></script>-->
+</head>
+<body class="position-relative" data-bs-spy="scroll" data-bs-target="#navbar-main" data-bs-offset="400">
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<div class="preloader d-none">
+    <div class="loader">
+        <div class="ytp-spinner">
+            <div class="ytp-spinner-container">
+                <div class="ytp-spinner-rotator">
+                    <div class="ytp-spinner-left">
+                        <div class="ytp-spinner-circle"></div>
+                    </div>
+                    <div class="ytp-spinner-right">
+                        <div class="ytp-spinner-circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<header class="header navbar-area sticky">
+    <div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="window vaporwave-window">
+                    <div id="title-bar" class="collapse show">
+                        <div class="title-bar vaporwave-title">
+                            <div class="title-bar-text d-flex align-items-start">
+                                <a href="index.html">
+                                    <img src="assets/img/logo_shadow.png" alt="Logo">
+                                </a>
+                                <span>Joyler — ジョイラー</span>
+                            </div>
+                            <div class="title-bar-controls">
+                                <button class="windows" aria-label="Help"></button>
+                                <button class="windows" aria-label="Close"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="navbar navbar-expand-lg px-3 justify-content-end" id="navbar-main">
+                        <button class="navbar-toggler windows custom-win-btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="toggler-icon fix-center-hamburger"></span>
+                            <span class="toggler-icon fix-center-hamburger"></span>
+                            <span class="toggler-icon fix-center-hamburger"></span>
+                        </button>
+                        <div id="navbarSupportedContent"
+                             class="collapse vaporwave-nav-bar navbar-collapse justify-content-center">
+                            <div class="navbar-collapse-child vaporwave-nav-bar">
+                                <ul id="nav" class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#home">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#feature">Core</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#about">Motivation</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#specs">Features</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#team">Team</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#contact">Join</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<!-- offset header pt-5 mt-4 mt-lg-3 -->
+<section id="home" class="hero-section pt-5 mt-4 mt-lg-3">
+    <div class="px-4 px-md-5 pt-4 pt-md-5">
+        <div class="windowOnHover px-lg-5 cool-window" tabindex="-1">
+            <div class="position-absolute show-titlebar-on-hover title-button-position">
+                <div class="title-bar-controls justify-content-end">
+                    <button class="windows" aria-label="Help"></button>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-7 col-lg-7">
+                        <div class="hero-content-wrapper text-center text-lg-start py-4 py-md-5">
+                            <h1 class="wow fadeInDown" data-wow-delay=".2s" style="line-height: 1.1">Change the
+                                world,<br>Own your content!</h1>
+                            <!--<h1 class="wow fadeInDown " data-wow-delay=".2s">Valuing content as a time based commodity</h1>-->
+                            <p class="wow fadeInLeft ms-2 mt-4" data-wow-delay=".4s"
+                               style="font-size: x-large; line-height: 1.2">
+                                We strive to fix social media problems with modern tech and a hint of IRC nostalgia<br>
+                                <span class="mt-3 ms-3" style="font-size: medium; font-weight: bold"><span
+                                        style="color: teal">04:20:69</span> <span style="color: green">&lt;ジョイラー&gt;</span> Joyler is proud to be building the future of social media! (＾ｖ＾)</span>
+                            </p>
+                            <form action="https://discord.gg/BU6rzMvpzx" method="get" target="_blank">
+                                <button type="submit" class="windows theme-btn custom-win-btn wow fadeInUp mt-5"
+                                        style="color: black; white-space: normal; word-wrap: break-word;"
+                                        data-wow-delay=".6s">
+                                    Join the Tech Renaissance
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5">
+                        <div class="hero-img d-flex justify-content-center">
+                            <div class="card__nft__dimens">
+                                <script src="assets/js/dist.js" card="back"></script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="feature" class="feature-section pt-150">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-7 col-lg-8 mx-auto">
+                <div class="section-title text-center mb-55">
+                    <h2 class="mb-20 wow fadeInUp" data-wow-delay=".2s">The big WHY?</h2>
+                    <p class="wow fadeInUp" data-wow-delay=".4s">
+                        Something needs to change with social media!<br>
+                        Here is how we see it:
+                </div>
+            </div>
+        </div>
+        <div class="windowOnHover cool-window" tabindex="-1">
+            <div class="position-relative show-titlebar-on-hover pe-3 pt-3">
+                <div class="title-bar-controls justify-content-end">
+                    <button class="windows" aria-label="Help"></button>
+                </div>
+            </div>
+            <div class="features-wrapper row justify-content-center">
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="single-feature text-center mb-30 wow fadeInUp" data-wow-delay=".2s">
+                        <div class="feature-img mb-20">
+                            <img class="big-icon" src="assets/img/why_section/feed.svg" alt="">
+                        </div>
+                        <div class="feature-content">
+                            <h5>Own your feed</h5>
+                            <p>We divide the creator's content into weeks and give exclusive access to it only to
+                                select owners</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="single-feature text-center mb-30 wow fadeInUp" data-wow-delay=".6s">
+                        <div class="feature-img mb-20">
+                            <img class="big-icon" src="assets/img/why_section/research.svg" alt="">
+                        </div>
+                        <div class="feature-content">
+                            <h5>Venture into up and coming creators</h5>
+                            <p>Discovery promising creator's content, help them grow
+                                and build great personal connection!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about-section pt-150 pb-20">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-xl-6 col-lg-6">
+                <div class="about-img mb-30">
+                    <img src="assets/img/about_us_section/moon.svg" alt="image" class=" wow fadeInLeft"
+                         data-wow-delay=".4s">
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6">
+                <div class="about-content mb-30">
+                    <div class="section-title mb-40">
+                        <h2 class="wow fadeInUp" data-wow-delay=".2s">Why now?</h2>
+                    </div>
+                    <p class="mb-15 wow fadeInUp" data-wow-delay=".4s">Small creators and their niches are underserved
+                        and underappreciated!</p>
+                    <p class="mb-15 wow fadeInUp" data-wow-delay=".5s">...and there is no alternative so far!</p>
+                    <p class="mb-35 wow fadeInUp" data-wow-delay=".6s">Let's build one with Joyler!</p>
+                    <!--Telegram group link-->
+                    <a href="https://discord.gg/BU6rzMvpzx" target="_blank"
+                       class="theme-btn theme-btn-2 wow fadeInRight" data-wow-delay=".8s">Join US</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="specs" class="specs-section pt-150 pb-120">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-7 col-lg-8 col-md-10 mx-auto">
+                <div class="section-title text-center mb-55">
+                    <h2 class="mb-20 wow fadeInDown" data-wow-delay=".2s">Technical Characteristics</h2>
+                    <p class=" wow fadeInUp" data-wow-delay=".4s">Too vague so far? Here is exactly
+                        what we are building:</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="position-relative cool-window windowOnHover single-service wow fadeInUp"
+                     data-wow-delay=".6s">
+                    <div class="position-absolute show-titlebar-on-hover" style="top: 1rem; right: 1rem">
+                        <div class="title-bar-controls justify-content-end">
+                            <button class="windows" aria-label="Help"></button>
+                        </div>
+                    </div>
+                    <div class="service-icon mb-30">
+                        <i class="lni lni-invention"></i>
+                    </div>
+                    <h4>Discovery</h4>
+                    <p>See public post pack of any and all creators before committing.</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="position-relative cool-window windowOnHover single-service wow fadeInUp"
+                     data-wow-delay=".4s">
+                    <div class="position-absolute show-titlebar-on-hover" style="top: 1rem; right: 1rem">
+                        <div class="title-bar-controls justify-content-end">
+                            <button class="windows" aria-label="Help"></button>
+                        </div>
+                    </div>
+                    <div class="service-icon mb-30">
+                        <i class="lni lni-users"></i>
+                    </div>
+                    <h4>Mutuals at first sight</h4>
+                    <p>Learn more about your favorite creators' work and creative process and build a unique
+                        connection.</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="position-relative cool-window windowOnHover single-service wow fadeInUp"
+                     data-wow-delay=".6s">
+                    <div class="position-absolute show-titlebar-on-hover" style="top: 1rem; right: 1rem">
+                        <div class="title-bar-controls justify-content-end">
+                            <button class="windows" aria-label="Help"></button>
+                        </div>
+                    </div>
+                    <div class="service-icon mb-30">
+                        <i class="lni lni-pencil-alt"></i>
+                    </div>
+                    <h4>Content Guarantee</h4>
+                    <p>Our creators are motivated by user feedback to write honest and useful content.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="team" class="team-section pt-120 pb-120">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-lg-7 mx-auto">
+                <div class="section-title text-center mb-55">
+                    <h2 class="mb-20 wow fadeInUp" data-wow-delay=".2s">Our Team</h2>
+                    <p class="mb-55 wow fadeInLeft" data-wow-delay=".4s">Who is buidling:</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-xl-3 col-lg-3 col-md-6">
+                <div class="single-team text-center mb-120 wow fadeInUp" data-wow-delay=".2s">
+                    <div class="team-img mb-20">
+                        <img src="assets/img/team_section/ko.jpg" alt="">
+                        <div class="team-social-links">
+                            <ul>
+                                <li><a target="_blank" href="https://twitter.com/GivETHLife"><i
+                                        class="lni lni-twitter-filled"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="team-info">
+                            <h5>Konstantin</h5>
+                            <span>Co-Founder</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6">
+                <div class="single-team text-center mb-120 wow fadeInUp" data-wow-delay=".4s">
+                    <div class="team-img mb-20">
+                        <img src="assets/img/team_section/ah.jpg" alt="">
+                        <div class="team-social-links">
+                            <ul>
+                                <li><a target="_blank" href="https://twitter.com/CosmicEdens"><i
+                                        class="lni lni-twitter-filled"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="team-info">
+                            <h5>Cosmic Edens</h5>
+                            <span>Co-Founder</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6">
+                <div class="single-team text-center mb-120 wow fadeInUp" data-wow-delay=".4s">
+                    <div class="team-img mb-20">
+                        <img src="assets/img/team_section/ja.jpg" alt="">
+                        <div class="team-social-links">
+                            <ul>
+                                <li><a target="_blank" href="https://twitter.com/chou_cj"><i
+                                        class="lni lni-twitter-filled"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="team-info">
+                            <h5>Jay</h5>
+                            <span>Software Wiz</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact-section pt-120 pb-210">
+    <div class="container position-relative cool-window windowOnHover px-5 py-5">
+        <div class="position-absolute show-titlebar-on-hover" style="top: 1rem; right: 1rem">
+            <div class="title-bar-controls justify-content-end">
+                <button class="windows" aria-label="Help"></button>
+            </div>
+        </div>
+        <div class="row align-items-end ps-4">
+            <div class="col-xl-6 col-lg-7">
+                <div class="contact-wrapper mb-30">
+                    <h2 class="mb-20 wow fadeInDown" data-wow-delay=".2s">Join US and...</h2>
+                    <p class="mb-55 wow fadeInUp" data-wow-delay=".4s">Let's build the future of social media
+                        together!</p>
+                    <div class="d-flex d-lg-block justify-content-center">
+                        <form action="https://discord.gg/BU6rzMvpzx" method="get" target="_blank">
+                            <button type="submit" class="windows theme-btn custom-win-btn wow fadeInUp mt-5"
+                                    style="color: black; white-space: normal; word-wrap: break-word;"
+                                    data-wow-delay=".6s">
+                                Discord <i class="position-relative lni lni-discord" style="top: 0.1rem;"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-5 py-4">
+                <div class="contact-map mb-30">
+                    <div class="map-canvas">
+                        <div class="about-img">
+                            <img src="assets/img/contact_section/telegram.svg" alt="image" class=" wow fadeInLeft"
+                                 data-wow-delay=".4s">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<p style="text-align: right" class="pe-3 pb-3">© 2023 Joyler. All rights reserved.</p>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+<script src="assets/js/wow.min.js"></script>
+<script crossorigin="anonymous"
+        src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver%2CIntersectionObserverEntry"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
